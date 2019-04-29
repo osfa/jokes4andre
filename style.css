@@ -7,16 +7,14 @@ html, body {
 
 body {
 	background: #111;
-
 	background-image: url('img/bkg-cropped.jpg');
-
     background-repeat: repeat;
     background-size: cover;
     background-position: center top;
 }
 
 .andre-col {
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 #video-container {
@@ -27,4 +25,21 @@ body {
 .video-card {
 	padding: 20px;
 	background-color:rgba(255,255,255,0.3);
+}
+
+.age {
+	position: absolute;
+	left: 75px;
+	top: 75px;
+	width: 200px;
+}
+
+#unmute-button {
+	--unmute-size: 40px!important;
+	  outline: none;
+}
+
+#unmute-button svg path {
+	fill: white!important;
+	outline: none;
 }
